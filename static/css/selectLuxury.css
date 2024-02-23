@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 1px, rgb(11, 11, 36);
-    background-image: url('../static/Images/1991373.png');
+    background-image: url('Images/1991373.png');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -114,11 +114,25 @@ hr:hover {
     justify-content: space-around;
     margin-bottom: 20px;
 }
+.experience_Description {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 290px;
+    text-align: justify;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
 
 .box1 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/LUXURY/Hov_beach_resort/83c221_669751648421440b88390ba275a92702_mv2.jpg');
+    background-image: url('Images/LUXURY/Hov_beach_resort/83c221_669751648421440b88390ba275a92702_mv2.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -128,10 +142,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box1:hover .experience_Description {
+    display: block;
+  }
 .box2 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/LUXURY/Jara_beach_resort/310b2a_1b1a397b916946238b38b09fba93e9f6~mv2.webp');
+    background-image: url('Images/LUXURY/Jara_beach_resort/310b2a_1b1a397b916946238b38b09fba93e9f6~mv2.webp');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -141,10 +158,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box2:hover .experience_Description {
+    display: block;
+  }
 .box3 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/LUXURY/La_capagne_tropicana/children-s-swimming-area.jpg');
+    background-image: url('Images/LUXURY/La_capagne_tropicana/children-s-swimming-area.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -154,10 +174,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box3:hover .experience_Description {
+    display: block;
+  }
 .box4 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/LUXURY/Laokwe_lakes_and_golf/ETTG_GOLF-TOURNAMENT_046-scaled.jpg');
+    background-image: url('Images/LUXURY/Laokwe_lakes_and_golf/ETTG_GOLF-TOURNAMENT_046-scaled.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -167,10 +190,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box4:hover .experience_Description {
+    display: block;
+  }
 .box5 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/LUXURY/LAYGOS_WATERCRAFTS/8a.jpg');
+    background-image: url('Images/LUXURY/LAYGOS_WATERCRAFTS/8a.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -180,10 +206,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box5:hover .experience_Description {
+    display: block;
+  }
 .box6 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/LUXURY/ZAZA/Moscow-Underground-Abuja.png');
+    background-image: url('Images/LUXURY/ZAZA/Moscow-Underground-Abuja.png');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -193,6 +222,9 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box6:hover .experience_Description {
+    display: block;
+  }
 .Box-details{
     position: absolute;
     background-color: rgba(32, 31, 31, 0.327);

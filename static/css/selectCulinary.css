@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 1px, rgb(11, 11, 36);
-    background-image: url('../static/Images/1991373.png');
+    background-image: url('Images/1991373.png');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -115,10 +115,11 @@ hr:hover {
     margin-bottom: 20px;
 }
 
+
 .box1 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/CULINARY/BATURE_BREWERY/great-beer.jpg');
+    background-image: url('Images/CULINARY/BATURE_BREWERY/great-beer.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -128,10 +129,27 @@ hr:hover {
     border-radius: 9px;
 
 }
+.experience_Description {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 290px;
+    text-align: justify;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .box1:hover .experience_Description {
+    display: block;
+  }
 .box2 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/CULINARY/DANFO_BISTRO/Danfo_Bistro_and_Davies6.0.jpg');
+    background-image: url('Images/CULINARY/DANFO_BISTRO/Danfo_Bistro_and_Davies6.0.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -141,10 +159,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box2:hover .experience_Description {
+    display: block;
+  }
 .box3 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/CULINARY/DUNE_CHOCOLATE_FACTORY/1d\ \(1\).jpg');
+    background-image: url('Images/CULINARY/DUNE_CHOCOLATE_FACTORY/1d\ \(1\).jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -154,10 +175,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box3:hover .experience_Description {
+    display: block;
+  }
 .box4 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/CULINARY/JOLLOF_BY_JARA/310b2a_0efcb75102c14953bd5999a772edbc2d~mv2.jpg');
+    background-image: url('Images/CULINARY/JOLLOF_BY_JARA/310b2a_0efcb75102c14953bd5999a772edbc2d~mv2.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -167,10 +191,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box4:hover .experience_Description {
+    display: block;
+  }
 .box5 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/CULINARY/NOK/Ey7eMlHWQAQoC90.jpg');
+    background-image: url('Images/CULINARY/NOK/Ey7eMlHWQAQoC90.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -180,10 +207,13 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box5:hover .experience_Description {
+    display: block;
+  }
 .box6 {
     width: 320px;
     height: 250px;
-    background-image: url('../static/Images/CULINARY/WINEHOUSE_IKOYI/img_1207rb_hannah_creativesrb_hannah_creatives_mieke_rautenbach.webp');
+    background-image: url('Images/CULINARY/WINEHOUSE_IKOYI/img_1207rb_hannah_creativesrb_hannah_creatives_mieke_rautenbach.webp');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -193,6 +223,9 @@ hr:hover {
     border-radius: 9px;
 
 }
+.box6:hover .experience_Description {
+    display: block;
+  }
 .Checkout{
     background-color: #007bff;
     color: #fff;

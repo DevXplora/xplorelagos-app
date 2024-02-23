@@ -108,7 +108,7 @@ hr:hover {
 #clickableDiv3  {
     cursor: pointer;
   }
-.expereience_Container1{
+.experience_Container1{
     background-image: url('Images/LEKKI_CONSERVATION_CENTRE_\(LCC\)_09.jpg');
     width: 500px;
     height: 250px;
@@ -120,7 +120,27 @@ hr:hover {
 
 
 }
-.expereience_Container2{
+
+.experience_Description {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.347);
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    width: 460px;
+    border-radius: 1px;
+  }
+  
+  .experience_Container1:hover .experience_Description {
+    display: block;
+  }
+
+.experience_Container2{
     background-image: url('Images/CULTURAL/NIKE/IMG_20190209_122155_2-768x576.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
@@ -133,7 +153,10 @@ hr:hover {
 
 
 }
-.expereience_Container3{
+.experience_Container2:hover .experience_Description {
+    display: block;
+  }
+.experience_Container3{
     background-image: url('Images/CULINARY/NOK/Ey7eMlHWQAQoC90.jpg');
     width: 500px;
     height: 250px;
@@ -145,28 +168,31 @@ hr:hover {
     
 
 }
-.expereience_Container4{
+.experience_Container3:hover .experience_Description {
+    display: block;
+  }
+.experience_Container4{
     background-image: url('Images/8a.jpg');
     background-size:cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
      /* Remove default margin */
      position: relative;
-
     margin: 25px;
     width: 500px;
     height: 250px;
 
 
 }
+.experience_Container4:hover .experience_Description {
+    display: block;
+  }
 .expereience_Name{
     position: absolute;
     color:white;
     font-size: 35px;
     right: 20px;
     bottom: 10px;
-
-
 }
 .expereience_Text{
     font-size: 50px;
