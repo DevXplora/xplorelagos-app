@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'ubuntu';
     border-radius: 1px, rgb(11, 11, 36);
     background-image: url('Images/1991373.png');
     background-size:cover; /* Cover the entire viewport */
