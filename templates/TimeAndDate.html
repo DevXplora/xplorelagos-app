@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Tour Scheduling</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Time_and_Date.css">
+    </head>
+<body>
+    <div class="header">
+        <div class="left-nav"> 
+            <img class="logo" href="SignUp.html" src="../static/Images/logo2.png" alt="Logo">
+        </div>
+        <div class="middle-nav"></div>
+        <div class="right-nav">
+            <ul>
+                <li><a class="ab2" href="Home.html">Home</a></li>
+                <li><a class="ab2" href="AboutUs.html">About us</a></li>
+                <li><a class="ab2" href="SignUp.html">Sign in/Sign up</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <p class="expereience_Text">Schedule your trip</p>
+    <hr>
+    <div class="main-container">
+        <dIv class="Schedule-main-box">
+            <div class="picture_part"></div>
+            <div class="Date_part">
+                <div class="container">
+                    <h2>SELECT DATE AND TIME FOR YOUR TRIP</h2>
+                    <form action="Sign.html" method="post"> 
+
+                      <div class="form-group">
+                        <label for="date">Date:</label>
+                        <input type="text" class="form-control custom-date-input" id="date" name="date" autocomplete=off">
+                      </div>
+                  
+                      <div class="form-group">
+                        <label for="time">Time:</label>
+                        <select class="form-control" id="time" name="time">
+                          <option value="09:00">9:00 AM</option>
+                          <option value="12:00">12:00 PM</option>
+                          <option value="15:00">3:00 PM</option>
+                          <option value="18:00">6:00 PM</option>
+                          <option value="21:00">9:00 PM</option>
+                        </select>
+                      </div>
+                      <input type="submit" class="btn btn-primary" value="Schedule Trip">
+                    </form>
+                  </div>
+            </div>
+        </dIv>
+    </div>
+   
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#date').datepicker({
+          format: 'yyyy-mm-dd',
+          autoclose: true,
+          todayHighlight: true
+        });
+      });
+    </script>
+    
+    </body>
+    </html>
+    
+
+    
+    
+   

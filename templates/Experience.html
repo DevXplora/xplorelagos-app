@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/Experience.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../static/css/Experience.css">
+    <title>Explore Lagos/Experience</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left-nav"> 
+            <img class="logo" src="../static/Images/logo2.png" alt="Logo">
+        </div>
+        <div class="middle-nav"></div>
+        <div class="right-nav">
+            <ul>
+                <li><a class="ab2" href="Home">Home</a></li>
+                <li><a class="ab2" href="#AboutUs">About us</a></li>
+                <li><a class="ab2" href="SignUp">Sign in/Sign up</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <p class="expereience_Text">Experiences</p>
+    <hr>
+ <div class="experience_page">
+    
+    
+    <div class="expereience_Container1" id="clickableDiv1">
+        <p class="expereience_Name">Adventure</p>
+    </div>
+    <div class="expereience_Container2" id="clickableDiv2">
+        <p class="expereience_Name">Cultural</p>
+    </div>
+    
+
+ </div>
+ <div class="experience_page">
+    
+    <div class="expereience_Container3" id="clickableDiv3">
+        <p class="expereience_Name" >Culinary</p>
+    </div>
+    <div class="expereience_Container4" id="clickableDiv4">
+        <p class="expereience_Name">Luxury</p>
+    </div>
+    
+
+ </div>
+      
+
+ <script>
+     document.getElementById("clickableDiv1").addEventListener("click", function() {
+      window.location.href = "Select-adventure";
+    });
+     document.getElementById("clickableDiv2").addEventListener("click", function() {
+      window.location.href = "Select-cultural.html";
+    });
+    document.getElementById("clickableDiv3").addEventListener("click", function() {
+      window.location.href = "Select-culinary.html";
+    });
+    document.getElementById("clickableDiv4").addEventListener("click", function() {
+      window.location.href = "Select-luxury.html";
+    });
+    </script>
+    
+    </body>
+    </html>
